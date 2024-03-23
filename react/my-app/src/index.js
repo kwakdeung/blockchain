@@ -3,18 +3,17 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
-
 import Time from './element/Time';
+import MovieList from './movies/MovieList';
 
-setInterval(() => {
-  ReactDOM.render(
-    <React.StrictMode>
-      <Time />
-    </React.StrictMode>,
-    document.getElementById('root')
-  );  
-}, 1000);
+
+ReactDOM.render(
+  <React.StrictMode>
+    <MovieList />
+  </React.StrictMode>,
+  document.getElementById('root')
+);  
+
 
 
 // If you want to start measuring performance in your app, pass a function
