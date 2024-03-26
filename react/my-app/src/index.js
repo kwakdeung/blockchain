@@ -5,11 +5,12 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Time from './element/Time';
 import MovieList from './movies/MovieList';
+import TestComp from './lifecycle/TestComp';
 
 
 ReactDOM.render(
   <React.StrictMode>
-    <MovieList />
+    <TestComp />
   </React.StrictMode>,
   document.getElementById('root')
 );  
